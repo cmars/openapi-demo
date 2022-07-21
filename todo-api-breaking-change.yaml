@@ -30,10 +30,10 @@ components:
     TodoRead:
       type: object
       properties:
-        name:
+        message:
           type: string
         status:
-          type: string
+          type: number
         created_at:
           type: string
         example:
@@ -41,6 +41,6 @@ components:
           format: date-time
           example: "2020-01-01T00:00:00.000Z"
       required:
-        - name
+        - message
         - status
         - created_at
