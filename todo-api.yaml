@@ -11,6 +11,11 @@ paths:
           schema:
             type: number
           required: true
+        - name: offset
+          in: query
+          schema:
+            type: number
+          required: false
       responses:
         '200':
           description: ok
