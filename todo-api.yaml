@@ -37,6 +37,7 @@ components:
       properties:
         name:
           type: string
+          description: Name of thing to be done
         status:
           type: string
         created_at:
